@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Главная страница</title>
+    <script src="https://kit.fontawesome.com/e255288b1a.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link media="all" rel="stylesheet" type="text/css" href="./stylesheet/style.css">
+    <link rel="shortcut icon" href="#">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="header-left">
+                <div class="social-icons space-x-4">
+                    <a href="#">О нас</a>
+                    <a href="#">Доставка и оплата</a>
+                    <a href="#">Блог</a>
+                </div>
+            </div>
+            <div class="header-center">
+                <div class="logo">
+                    <img src="img/logo.png" alt="Логотип">
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="contact-info">
+                    <span>+7 999 123-45-67</span>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="book-button py-2 px-4 rounded">Обратный звонок</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom ">
+            <div class="navigate-panel">
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="cursor-pointer">
+                    <i class="fas fa-bars text-xl"> </i><p> Каталог</p>
+                </label>
+                <nav class="menu">
+                    <div class="menu-top">
+                        <div class="menu-column">
+                            <p>Косметология</p>
+                            <a href="#">Космецевтика для лица</a>
+                            <a href="#">Космецевтика для тела</a>
+                            <a href="#">Карбокситерапия</a>
+                            <a href="#">Альгинатные и тканевые маски</a>
+                            <a href="#">Биологически активные добавки</a>
+                            <a href="#">Пилинги</a>
+                            <a href="#">Солнцезащитные средства</a>
+                        </div>
+                        <div class="menu-column">
+                            <p>Медицина</p>
+                            <a href="#">Контурная пластика</a>
+                            <a href="#">Сыворотки</a>
+                            <a href="#">Ботулотоксины</a>
+                            <a href="#">Тредлифтинг</a>
+                            <a href="#">Плазмолифтинг</a>
+                            <a href="#">Пилинги</a>
+                            <a href="#">Аппараты</a>
+                            <a href="#">Трихология</a>
+                            <a href="#">Расходные материалы</a>
+                        </div>
+                    </div>
+                <div class="menu-bottom">
+                    <button class="btn-menu py-2 px-4 rounded">Весь каталог</button>
+                </div>
+                </nav>
+                
+
+                <nav>
+                    <ul class="flex space-x-4">
+                        <li><a href="#">Бренды</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Обучение</a></li>
+                        <li><a href="#">Распродажа</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="search-container flex items-center">
+                    <div class="search-icon mr-2">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <input type="text" placeholder="Поиск" class="border rounded px-2 py-1">
+                </div>
+                
+                
+                <div class="user-actions space-x-4">
+                    <a href="#"><i class="far fa-heart"></i> 0</a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i> 0</a>
+                    <a href="#"><i class="far fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.getElementById('menu-toggle');
+            const menu = document.querySelector('.menu');
+
+            menuToggle.addEventListener('click', function() {
+                menu.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
