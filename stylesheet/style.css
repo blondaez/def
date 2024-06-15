@@ -152,6 +152,9 @@ header .header-bottom .menu-column a {
   margin: 0.2rem;
   margin-left: 0;
 }
+header .header-bottom .menu-column.second-column {
+  transform: translateX(40px);
+}
 header .header-bottom .menu-top {
   display: flex;
   flex-direction: row;

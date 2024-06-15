@@ -177,8 +177,11 @@ header {
                 margin: 0.2rem;
                 margin-left: 0;
             }
+            
         }
-
+        .menu-column.second-column {
+            transform: translateX(40px); 
+        }
         .menu-top {
             display: flex;
             flex-direction: row;
