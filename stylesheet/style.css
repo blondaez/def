@@ -98,7 +98,7 @@ header .header-bottom .navigate-panel ul li a {
   padding: 1rem;
 }
 header .header-bottom .navigate-panel .search-container {
-  width: 33rem;
+  width: 18rem;
   padding-top: 3px;
 }
 header .header-bottom .navigate-panel .search-container input {
@@ -194,6 +194,6 @@ header .header-bottom .search-container input[type=text] {
   outline: none;
   padding: 0.75rem 1.125rem;
   font-size: 0.875rem;
-  width: 18rem;
+  width: 20rem;
 }
 /*# sourceMappingURL=style.css.map */
